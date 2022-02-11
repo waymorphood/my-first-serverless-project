@@ -14,11 +14,14 @@
     <script>
       document.addEventListener('DOMContentLoaded', () => {
         const fetchBtn = document.getElementById('fetch-btn')
-        const responseText = document.getElementById('response-output')
-
-        fetchBtn.addEventListener('click', () => {
+        const responseText = document.getElementById('response-output');
+        fetchBtn.addEventListener('click', async () => {
           responseText.innerText = 'Static Text Replacement'
+          const response = await fetch("/.netlify/functions/hello-world");   
+          console.log(response);
         })
+
+        
       })
     </script>
   </body>

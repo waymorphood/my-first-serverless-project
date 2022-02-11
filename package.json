@@ -1,0 +1,9 @@
+{
+  "name": "my-first-serverless-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/waymorphood/my-first-serverless-project.git",
+  "author": "waymorphood <fred@morphood.com>",
+  "license": "yarn install"
+}
+  
